@@ -6,6 +6,7 @@ const groupCssMediaQueries = require('gulp-group-css-media-queries');
 const autoprefixer = require('gulp-autoprefixer');
 const scss = require('gulp-sass')(require('sass'));
 const concat = require('gulp-concat');
+
 function styleConcat() {
 	return src([
 		'dev/style/scss/*.scss',
